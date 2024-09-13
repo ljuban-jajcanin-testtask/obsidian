@@ -1,0 +1,462 @@
+/* get Poppins font family from Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* set rem unit to 10px */
+html { 
+    font-family: "Poppins", sans-serif;
+    font-size: 62.5%; 
+}
+
+/* main css */
+body{
+    margin:0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin:0 auto;
+}
+
+.row{
+    display: flex;
+}
+
+.d-flex{
+    display: flex;
+}
+
+/* header */
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile-menu{
+    display: none;
+}
+.logo{
+    margin: 1rem 6rem;
+}
+.mobile-navigation{
+    display: none;
+}
+.nav-list{
+    display: flex;
+}
+
+.nav-list li{
+    display: flex;
+    margin: 0 2rem;
+    font-size: 1.4rem;
+}
+
+.nav-list li a{
+    color: #000;
+    text-decoration: none;
+}
+
+.search a{
+    color: #000;
+    text-decoration: none;
+}
+
+.search{
+    margin-right: 5rem;
+}
+
+.header-icon{
+    margin:  0 0.5rem;
+    position: relative;
+}
+
+.cartFull::after{
+    content: attr(data-content);
+    background-color: red;
+    border-radius: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* main product section */
+.product-image{
+    width: 100%;
+}
+.product-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-details{
+    padding: 5rem;
+    background-color: #F6F6F5;
+    max-width: 43rem;
+    color: #4D4D4D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.breadcrumbs{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.mobile-breadcrumbs{
+    display: none;
+}
+.breadcrumbs a{
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.product-details h3{
+    margin: 3rem 0 1rem;
+    font-size: 2.8rem;
+    font-weight: normal;
+}
+
+.product-details p{
+    font-size: 1.4rem;
+}
+
+.separator{
+    background-color: #9F938B;
+    width: 100%;
+    height: 1px;
+}
+.organic{
+    display: flex;
+    flex-wrap: wrap
+}
+.organic div{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    margin: 2rem 0;
+}
+.organic div div{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 100%;
+    border: 1px solid #9F938B;
+    margin: 0 1rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.organic div div img{
+    width: 1.8rem;
+}
+.buy-buttons{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+}
+.buy-button{
+    margin: 2rem 0 0;
+    display: flex;
+    align-items: center;
+}
+.buy-button input{
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 0 1rem 0 0;
+    accent-color: #9F938B;
+}
+
+.addtocart,
+.quantity{
+    display: flex;
+    align-items: center;
+}
+.quantity{
+    margin-right: 1rem;
+}
+#lower-quantity,
+#quantity,
+#increase-quantity{
+    font-size: 1.6rem;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 2rem;
+    justify-content: center;
+}
+
+#lower-quantity{
+    border-left: 1px solid #000;
+    cursor: pointer;
+}
+#increase-quantity{
+    border-right: 1px solid #000;
+    cursor: pointer;
+}
+#lower-quantity:hover,
+#increase-quantity:hover{
+    background-color: #9F938B;
+}
+.add-to-cart-button{
+    padding: 0rem 5rem;
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+    height: 4.7rem;
+    cursor: pointer;
+    background-color: #BFABAB;
+    border: none;
+}
+
+/* INGREDIENTS */
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    max-width: 66rem;
+    padding: 0 0 0 13rem;
+    margin: 3rem 0;
+}
+.ingredients h3{
+    position: relative;
+    font-size: 2rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+.ingredients h3.active::after{
+    position: absolute;
+    top:0;
+    right: 0;
+    content: "-";
+}
+.ingredients h3.inactive::after{
+    position: absolute;
+    top:0;
+    right: 0;
+    content: "+";
+}
+.ingredients p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.ingredients h3.inactive + p{
+    max-height:0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.ingredients h3.active + p{
+    max-height:20rem;
+    overflow: hidden;
+    transition: 1s;
+}
+
+/* YOU MAY ALSO LIKE */
+
+.you-may-like{
+    margin-top:5rem;
+    width: 100%;
+    padding: 0 3rem;
+}
+.you-may-like > h3{
+    font-size: 2.8rem;
+    font-size: 28;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+#carousel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.carousel-card h4{
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.carousel-card p{
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.carousel-card h3{
+    font-family: "Lato", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.carousel-left,
+.carousel-right{
+    cursor:pointer;
+}
+
+/* CAROUSEL */
+.carousel {
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.carousel .carousel-item,
+.carousel .carousel-item-hidden {
+    display: none; /* hide all slide images not currently being viewed */
+}
+
+.carousel .carousel-item-visible {
+    display: block; /* show current slide image */
+    animation: fadeVisibility 0.5s; /* for fading effect when switching between slides */
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0 8rem;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+/* Navigation control styles */
+.carousel .carousel-actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; /* put space between the navigation buttons */
+    position: absolute; /* position navigation buttons on top */
+    top: 50%; /* center navigation buttons on the slide */
+    transform: translateY(-50%); /* align navigation buttons */
+}
+
+.carousel .carousel-actions button {
+    border-radius: 50px;
+    background-color: white;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel .carousel-actions button#carousel-button-prev {
+    margin-left: 20px; /* prevent previous button from touching the side*/
+}
+
+.carousel .carousel-actions button#carousel-button-next {
+    margin-right: 20px;  /* prevent next button from touching the side*/
+}
+
+.carousel-dots {
+    text-align: center; 
+}
+
+.dot {
+    opacity: 0.7; /* gray out dots for slides not being visted */
+}
+
+.dot:focus {
+    border: 1px solid black; /* dot for currently visited slide */
+}
+
+/* hanlde smooth transitions between slides */
+@keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* MOBILE CSS */
+@media screen and (max-width:1080px){
+    .mobile-menu{
+        display: block;
+    }
+    .mobile-menu img{
+        margin: 0 1rem 0 2rem;
+    }
+    .mobile-navigation{
+        display: flex;
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.5s;
+        justify-content: center;
+    }
+    .mobile-navigation.active-navigation{
+        transition: 1s;
+        max-height: 500px;
+    }
+    .nav-list{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .nav-list li {
+        margin: 0.5rem 2rem;
+    }
+    .logo {
+        margin: 1rem 3rem;
+    }
+    .navigation{
+        display: none;
+    }
+    .search a:first-child{
+        display: none;
+    }
+    .product{
+        flex-direction: column;
+    }
+    .product-image {
+        display: contents;
+    }
+    .product-details{
+        width: 100%;
+        padding: 2.5rem;
+        max-width: calc(100% - 5rem);
+    }
+    .breadcrumbs{
+        display: none;
+    }
+    .mobile-breadcrumbs{
+        display: flex;
+        color: #4d4d4d;
+        background-color: #f6f6f5;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+    .product-details h3{
+        margin:0;
+    }
+    .ingredients{
+        max-width: 100%;
+        padding: 2.6rem;
+    }
+    .you-may-like {
+        padding: 0 0rem;
+    }
+    .carousel-item div:nth-child(1),
+    .carousel-item div:nth-child(2){
+        display: none;
+    }
+}
