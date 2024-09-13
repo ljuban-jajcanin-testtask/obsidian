@@ -35,7 +35,7 @@
 65C:\Users\ljuban.jajcanin\Desktop\obsidian\node_modules\semver\bin133706400706204470 1
 48C:\Users\ljuban.jajcanin\Desktop\obsidian\assets133706395760510074 1
 84C:\Users\ljuban.jajcanin\Desktop\obsidian\node_modules\css-select\lib\index.d.ts.map133706400706154606 0
-46C:\Users\ljuban.jajcanin\Desktop\obsidian\dist133707054899844984 1
+46C:\Users\ljuban.jajcanin\Desktop\obsidian\dist133707069902918464 1
 92C:\Users\ljuban.jajcanin\Desktop\obsidian\node_modules\csso\node_modules\css-tree\lib\syntax133706400716421460 1
 63C:\Users\ljuban.jajcanin\Desktop\obsidian\node_modules\svgo\lib133706400704295013 1
 84C:\Users\ljuban.jajcanin\Desktop\obsidian\node_modules\electron-to-chromium\index.js133706400685255437 0
@@ -2712,7 +2712,7 @@
 96C:\Users\ljuban.jajcanin\Desktop\obsidian\node_modules\@swc\helpers\cjs\_array_without_holes.cjs133706400714914201 0
 70C:\Users\ljuban.jajcanin\Desktop\obsidian\node_modules\detect-libc\lib133706400687931103 1
 90C:\Users\ljuban.jajcanin\Desktop\obsidian\node_modules\caniuse-lite\data\features\woff2.js133706400732809127 0
-69C:\Users\ljuban.jajcanin\Desktop\obsidian\dist\index.f3b972e4.css.map133707054899844984 0
+69C:\Users\ljuban.jajcanin\Desktop\obsidian\dist\index.f3b972e4.css.map133707069902868600 0
 74C:\Users\ljuban.jajcanin\Desktop\obsidian\node_modules\detect-libc\LICENSE133706400686745189 0
 85C:\Users\ljuban.jajcanin\Desktop\obsidian\node_modules\@swc\helpers\cjs\_identity.cjs133706400716286022 0
 108C:\Users\ljuban.jajcanin\Desktop\obsidian\node_modules\csso\node_modules\mdn-data\css\properties.schema.json133706400704584269 0
@@ -5912,7 +5912,7 @@
 72C:\Users\ljuban.jajcanin\Desktop\obsidian\assets\images\main-product.svg133706435180000000 0
 76C:\Users\ljuban.jajcanin\Desktop\obsidian\assets\images\icons\arrow-left.svg133706440120000000 0
 79C:\Users\ljuban.jajcanin\Desktop\obsidian\assets\images\icons\carousel-left.svg133706519980000000 0
-62C:\Users\ljuban.jajcanin\Desktop\obsidian\assets\css\style.css133707054904497682 0
+62C:\Users\ljuban.jajcanin\Desktop\obsidian\assets\css\style.css133707069907697855 0
 67C:\Users\ljuban.jajcanin\Desktop\obsidian\dist\obsidian.3464ddca.js133707054113785224 0
 64C:\Users\ljuban.jajcanin\Desktop\obsidian\dist\index.a6d2c788.js133707054113982875 0
 71C:\Users\ljuban.jajcanin\Desktop\obsidian\dist\obsidian.3464ddca.js.map133707054114092583 0
@@ -5923,4 +5923,4 @@
 64C:\Users\ljuban.jajcanin\Desktop\obsidian\dist\logo.92136df5.svg133707054114460208 0
 57C:\Users\ljuban.jajcanin\Desktop\obsidian\dist\index.html133707054114460208 0
 72C:\Users\ljuban.jajcanin\Desktop\obsidian\dist\main-product.a012e52f.svg133707054114460208 0
-65C:\Users\ljuban.jajcanin\Desktop\obsidian\dist\index.f3b972e4.css133707054899704050 0
+65C:\Users\ljuban.jajcanin\Desktop\obsidian\dist\index.f3b972e4.css133707069902778843 0

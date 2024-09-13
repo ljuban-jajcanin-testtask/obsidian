@@ -461,4 +461,8 @@ body{
     .carousel-item div:nth-child(2){
         display: none;
     }
+    #cart-icon{
+        position: relative;
+        top: 2px;
+    }
 }

@@ -473,5 +473,10 @@ body {
   .carousel-item div:first-child, .carousel-item div:nth-child(2) {
     display: none;
   }
+
+  #cart-icon {
+    position: relative;
+    top: 2px;
+  }
 }
 /*# sourceMappingURL=index.f3b972e4.css.map */
