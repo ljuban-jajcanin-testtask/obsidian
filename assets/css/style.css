@@ -129,12 +129,13 @@ body{
 
 .product-details p{
     font-size: 1.4rem;
+    letter-spacing: 0.1rem;
 }
 
 .separator{
     background-color: #9F938B;
     width: 100%;
-    height: 1px;
+    height: 0.1rem;
 }
 .organic{
     display: flex;
@@ -150,7 +151,7 @@ body{
     width: 4.5rem;
     height: 4.5rem;
     border-radius: 100%;
-    border: 1px solid #9F938B;
+    border: 0.1rem solid #9F938B;
     margin: 0 1rem 0 0;
     display: flex;
     align-items: center;
@@ -168,6 +169,7 @@ body{
     margin: 2rem 0 0;
     display: flex;
     align-items: center;
+    letter-spacing: 0.1rem;
 }
 .buy-button input{
     width: 2.2rem;
@@ -192,18 +194,18 @@ body{
     display: flex;
     align-items: center;
     padding: 0 1rem;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-top: 0.1rem solid #000;
+    border-bottom: 0.1rem solid #000;
     width: 2rem;
     justify-content: center;
 }
 
 #lower-quantity{
-    border-left: 1px solid #000;
+    border-left: 0.1rem solid #000;
     cursor: pointer;
 }
 #increase-quantity{
-    border-right: 1px solid #000;
+    border-right: 0.1rem solid #000;
     cursor: pointer;
 }
 #lower-quantity:hover,
@@ -371,7 +373,7 @@ body{
 }
 
 .dot:focus {
-    border: 1px solid black; /* dot for currently visited slide */
+    border: 0.1rem solid black; /* dot for currently visited slide */
 }
 
 /* hanlde smooth transitions between slides */
@@ -443,7 +445,7 @@ body{
         align-items: center;
         padding: 1.5rem;
         font-size: 1rem;
-        letter-spacing: 1px;
+        letter-spacing: 0.1rem;
     }
     .product-details h3{
         margin:0;

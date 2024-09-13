@@ -121,13 +121,14 @@ body {
 }
 
 .product-details p {
+  letter-spacing: .1rem;
   font-size: 1.4rem;
 }
 
 .separator {
   background-color: #9f938b;
   width: 100%;
-  height: 1px;
+  height: .1rem;
 }
 
 .organic {
@@ -143,7 +144,7 @@ body {
 }
 
 .organic div div {
-  border: 1px solid #9f938b;
+  border: .1rem solid #9f938b;
   border-radius: 100%;
   justify-content: center;
   align-items: center;
@@ -164,6 +165,7 @@ body {
 }
 
 .buy-button {
+  letter-spacing: .1rem;
   align-items: center;
   margin: 2rem 0 0;
   display: flex;
@@ -186,8 +188,8 @@ body {
 }
 
 #lower-quantity, #quantity, #increase-quantity {
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-top: .1rem solid #000;
+  border-bottom: .1rem solid #000;
   justify-content: center;
   align-items: center;
   width: 2rem;
@@ -199,12 +201,12 @@ body {
 
 #lower-quantity {
   cursor: pointer;
-  border-left: 1px solid #000;
+  border-left: .1rem solid #000;
 }
 
 #increase-quantity {
   cursor: pointer;
-  border-right: 1px solid #000;
+  border-right: .1rem solid #000;
 }
 
 #lower-quantity:hover, #increase-quantity:hover {
@@ -372,7 +374,7 @@ body {
 }
 
 .dot:focus {
-  border: 1px solid #000;
+  border: .1rem solid #000;
 }
 
 @keyframes fadeVisibility {
@@ -446,7 +448,7 @@ body {
 
   .mobile-breadcrumbs {
     color: #4d4d4d;
-    letter-spacing: 1px;
+    letter-spacing: .1rem;
     background-color: #f6f6f5;
     justify-content: center;
     align-items: center;
